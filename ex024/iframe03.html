@@ -3,9 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Uso de iframe</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        iframe {
+            width: 95vw;
+            height: 400px;
+            border: 2px solid black;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Faça sua escolha</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id voluptatem officiis esse itaque. Ipsa, at quibusdam. Tempore obcaecati fugiat iure aperiam aliquid voluptatem impedit labore. Illum rerum amet laborum cumque!Lorem</p>
+
+    <ul>
+        <li><a href="paginas extras/pag001.html" target="frame">primeira pagina</a></li>
+        <li><a href="paginas extras/pag002.html" target="frame">segunda pagina</a></li>
+        <li><a href="paginas extras/pag003.html" target="frame">terceira pagina</a></li>
+    </ul>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente itaque in exercitationem expedita. Quasi, non, commodi adipisci sunt unde, voluptatem quod aperiam delectus numquam modi sapiente natus nam architecto autem?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, ratione. Perferendis libero totam, fuga eius delectus debitis nobis nihil repellendus tempora, molestiae modi quisquam soluta dicta necessitatibus aliquam. Esse, quisquam.</p>
+
+    <iframe name="frame" srcdoc="<h1>Escolha uma das opcoes acima</h1>     <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam quasi at numquam maxime ea, recusandae suscipit saepe perferendis dolorem quam corrupti deserunt iste ratione odit facere dolore porro nisi ab?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum accusamus eos, mollitia et aperiam optio voluptatem architecto quasi. Dolorem, quo? Eveniet illo eligendi beatae doloremque, similique officiis maxime quia distinctio.</p>">
+        <p>Infelizmente seu navegador e incompativel</p>
+    </iframe>
+
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aliquam quasi at numquam maxime ea, recusandae suscipit saepe perferendis dolorem quam corrupti deserunt iste ratione odit facere dolore porro nisi ab?Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum accusamus eos, mollitia et aperiam optio voluptatem architecto quasi. Dolorem, quo? Eveniet illo eligendi beatae doloremque, similique officiis maxime quia distinctio.</p>
 </body>
 </html>
